@@ -6,4 +6,7 @@ class UsersController < ApplicationController
     def show
     @messages = "hello,world"
     end
+    def new
+    @message = "hello,world"
+    end
 end
